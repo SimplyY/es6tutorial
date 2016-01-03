@@ -596,7 +596,7 @@ str.split('').reverse().join('')
 
 **（5）类似数组的对象**
 
-任何类似数组的对象，都可以用扩展运算符转为真正的数组。
+任何实现了的Iterator接口对象，都可以用扩展运算符转为真正的数组。
 
 ```javascript
 var nodeList = document.querySelectorAll('div');
